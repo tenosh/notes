@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    // Syntax highlighting and more for .vue files
+    "octref.vetur",
+    // Peek and go-to-definition for .vue files
+    "dariofuzinato.vue-peek",
+    // Lint-on-save with ESLint
+    "dbaeumer.vscode-eslint",
+    // Lint-on-save with Stylelint
+    "shinnn.stylelint",
+    // Format-on-save with Prettier
+    "esbenp.prettier-vscode",
+    // SCSS intellisense
+    "mrmlnc.vscode-scss",
+    // Lint markdown in README files
+    "DavidAnson.vscode-markdownlint",
+    // Define snippets specific to the project
+    "rebornix.project-snippets"
+  ]
+}
