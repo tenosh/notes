@@ -1,0 +1,9 @@
+@import 'colors';
+@import 'fonts';
+@import 'media-queries';
+
+:export {
+  // Any values that need to be accessible from JavaScript
+  // outside of a Vue component can be defined here, prefixed
+  // with `global-` to avoid conflicts with classes.
+}
