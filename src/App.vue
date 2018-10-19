@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :id="$style.app">
     <router-view/>
   </div>
 </template>
@@ -12,3 +12,16 @@ export default {
   },
 }
 </script>
+
+<style lang="scss" module>
+@import './assets/design/reboot.scss';
+@import './assets/design/index.scss';
+/* stylelint-disable */
+body {
+  background-color: $primary-color;
+  #app {
+    font-family: $system-default-font-family;
+    color: $color-text;
+  }
+}
+</style>
